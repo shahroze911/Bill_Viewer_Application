@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Electricity Bill">
+        <menu>
+            <item
+                android:id="@+id/fesco"
+                android:icon="@drawable/fesco"
+                android:title="FESCO (Faisalabad)" />
+            <item
+                android:id="@+id/gepco"
+                android:icon="@drawable/gepco"
+                android:visible="true"
+                android:title="GEPCO (Gujranwala)" />
+            <item
+                android:id="@+id/hesco"
+                android:icon="@drawable/hesco"
+                android:title="HESCO (Hyderabad)" />
+            <item
+                android:id="@+id/lesco"
+                android:icon="@drawable/lesco"
+                android:title="LESCO (Lahore)" />
+        </menu>
+    </item>
+    <item android:title="Sui Gas Bill">
+        <menu>
+            <item
+                android:id="@+id/sngpl"
+                android:icon="@drawable/sngpl"
+                android:title="SUI Northern Gas Piplines Limited" />
+        </menu>
+    </item>
+
+    <item android:title="Internet Bills">
+        <menu>
+            <item
+                android:id="@+id/ptcl"
+                android:icon="@drawable/ptcl"
+                android:title="PTCL" />
+            <item
+                android:id="@+id/nayatel"
+                android:icon="@drawable/nayatel"
+                android:title="Naya Tel"/>
+        </menu>
+    </item>
+
+</menu>

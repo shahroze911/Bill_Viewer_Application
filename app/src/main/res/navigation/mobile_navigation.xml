@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="smd.com.ui.home.fesco.HOMEFragment"
+        android:label="HOME"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/fesco"
+        android:name="smd.com.ui.fesco.FESCOFragment"
+        android:label="FESCO"
+        tools:layout="@layout/fragment_fesco" />
+
+    <fragment
+        android:id="@+id/gepco"
+        android:name="smd.com.ui.gepco.GEPCOFragment"
+        android:label="GEPCO"
+        tools:layout="@layout/fragment_gepco" />
+
+    <fragment
+        android:id="@+id/hesco"
+        android:name="smd.com.ui.hesco.HESCOFragment"
+        android:label="HESCO"
+        tools:layout="@layout/fragment_hesco" />
+
+    <fragment
+        android:id="@+id/lesco"
+        android:name="smd.com.ui.lesco.LESCOFragment"
+        android:label="LESCO"
+        tools:layout="@layout/fragment_lesco" />
+
+    <fragment
+        android:id="@+id/sngpl"
+        android:name="smd.com.ui.sngpl.SNGPLFragment"
+        android:label="SNGPL"
+        tools:layout="@layout/fragment_sngpl" />
+
+    <fragment
+        android:id="@+id/ptcl"
+        android:name="smd.com.ui.ptcl.PTCLFragment"
+        android:label="PTCL"
+        tools:layout="@layout/fragment_ptcl" />
+    <fragment
+        android:id="@+id/nayatel"
+        android:name="smd.com.ui.nayatel.nayatel.NAYATELFragment"
+        android:label="NAYATEL"
+        tools:layout="@layout/fragment_nayatel" />
+</navigation>
